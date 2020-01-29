@@ -1,6 +1,6 @@
 # Practica Nro. 3 - C# 
 
-Ejercicios resuelto básicos de C#
+Ejercicios nivel medio resueltos de C#
 
 ## 🛠️ Construido con :
 
@@ -23,6 +23,8 @@ Ejercicios resuelto básicos de C#
 
 Codifique un programa que contenga un método llamado “ejecutarHilo()” que imprima por consola la leyenda “HILO EJECUTADO” implemente el código necesario para que por medio de la ejecución de Hilos el método “ejecutarHilo()” se ejecute cada 30 segundos. 
 
+[Resuelto](https://github.com/Sebastian-Echazu-Csharp/Practica-3/tree/master/Hilos)
+
 ## 2 - OBJETOS 
 
 Escriba la definición de la clase CuentaBancaria cuyo alcance debe ser público:  Tipos: public string titularCta; public string cuit; public decimal saldo; public int numeroCBU; 
@@ -32,6 +34,8 @@ Cree 2 instancias de la clase CuentaBancaria con los siguientes valores, respeta
 Instancia 1: titularCta: “Juan Alonso” cuit: “20-26987456-7”. saldo: 1258.75. numeroCBU: 1236547896554 
 
 Instancia 2: titularCta: “Alberto Lopez” cuit: “23-15654321-9” saldo: 25698.78 numeroCBU: 9876546546557 
+
+[Resuelto](https://github.com/Sebastian-Echazu-Csharp/Practica-3/tree/master/Objetos)
 
 ## 3 - ENCAPSULAMIENTO 
 
@@ -44,6 +48,8 @@ titularCta: “Juan Alonso” cuit: “20-26987456-7”. saldo: 1258.75. numeroC
 
 Instancia 2: titularCta: “Alberto Lopez” cuit: “23-15654321-9” saldo: 25698.78 numeroCBU: 9876546546557 
 
+[Resuelto](https://github.com/Sebastian-Echazu-Csharp/Practica-3/tree/master/Encapsulamiento)
+
 ## 4 - HERENCIA Y POLIMORFISMO 
 
 En primer lugar, cree una clase base llamada Figura y luego cree clases derivadas como Rectángulo, Circulo y Triangulo.  
@@ -54,13 +60,23 @@ Finalmente en el método static void Main() cree un objeto List<Figura> y agregu
 
 Utilice un bucle foreach para recorrer en iteración la lista y llamar al método Dibujar () en cada objeto Figura de la lista.  Aunque cada objeto de la lista tiene un tipo declarado de Figura, es el tipo en tiempo de ejecución el que se invocará. 
 
-El resultado del programa debería ser:       Dibuja Rectángulo      Dibuja Figura      Dibuja Círculo          Dibuja Figura    Dibuja Triangulo    Dibuja Figura 
+El resultado del programa debería ser:       
+
+- Dibuja Rectángulo      
+- Dibuja Figura      
+- Dibuja Círculo          
+- Dibuja Figura    
+- Dibuja Triangulo   
+-  Dibuja Figura 
+
+[resuelto](https://github.com/Sebastian-Echazu-Csharp/Practica-3/tree/master/HerenciaYPolimorfismo)
 
 ## 5 - CLASES PARCIALES 
 
 Cree un proyecto de Consola con el nombre: ClaseParcial  
-Agregue un archivo de clase llamado "Archivo1.cs".  
-En este archivo codifique la clase "partial class Rectángulo" que define las propiedades y atributos en este caso definir los atributos enteros ancho y  alto y sus correspondientes propiedades.  
+Agregue un archivo de clase llamado "Archivo1.cs".  En este archivo codifique la clase "partial class rectángulo" que define las propiedades y atributos en este caso definir los atributos enteros ancho y  alto y sus correspondientes propiedades.  
+
+[Resuelto](https://github.com/Sebastian-Echazu-Csharp/Practica-3/tree/master/ClaseParcial)
 
 
 
